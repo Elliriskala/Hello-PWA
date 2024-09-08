@@ -4,8 +4,8 @@ var filesToCache = [
   './index.html',
   './css/style.css',
   './js/main.js',
-  './fonts/Roboto_Mono/static/RobotoMono-Regular.ttf',
-  './images/background5.jpg'
+  './images/hello-icon-128.png',
+  './fonts/Roboto_Mono/static/RobotoMono-Regular.ttf'
 ];
 
 /* Start the service worker and cache all of the app's content */
@@ -17,14 +17,6 @@ self.addEventListener('install', (e) => {
         console.log('Files cached successfully');
       } catch (error) {
         console.error('Error caching files:', error);
-        for (let file of filesToCache) {
-          try {
-            await cache.add(file);
-            console.log('Cached successfully:', file);
-          } catch (e) {
-            console.error('Failed to cache:', file, e);
-          }
-        }
       }
     })
   );

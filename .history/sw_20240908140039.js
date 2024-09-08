@@ -4,7 +4,7 @@ var filesToCache = [
   './index.html',
   './css/style.css',
   './js/main.js',
-  './fonts/Roboto_Mono/static/RobotoMono-Regular.ttf',
+  '../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf',
   './images/background5.jpg'
 ];
 

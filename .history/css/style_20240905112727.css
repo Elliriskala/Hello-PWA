@@ -1,12 +1,14 @@
-@font-face {
-  font-family: 'roboto mono';
-  src: url('../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf')format('truetype');
+font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto_Mono/static/RobotoMono-Regular.woff2') format('woff2'),
+  url('../fonts/Roboto_Mono/static/RobotoMono-Regular.woff') format('woff'),
+  url('../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf')format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'roboto mono', sans-serif;
+  font-family: 'roboto', arial, sans-serif;
   font-weight: 400;
   font-style: normal;
 }

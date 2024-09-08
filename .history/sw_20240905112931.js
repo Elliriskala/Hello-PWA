@@ -4,8 +4,8 @@ var filesToCache = [
   './index.html',
   './css/style.css',
   './js/main.js',
-  './fonts/Roboto_Mono/static/RobotoMono-Regular.ttf',
-  './images/background5.jpg'
+  './images/hello-icon-128.png',
+  './fonts/Roboto_Mono/static/RobotoMono-Regular.ttf'
 ];
 
 /* Start the service worker and cache all of the app's content */

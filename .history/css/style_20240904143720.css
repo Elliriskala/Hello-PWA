@@ -1,14 +1,5 @@
-@font-face {
-  font-family: 'roboto mono';
-  src: url('../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf')format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: 'roboto mono', sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: sans-serif;
 }
 
 /* Make content area fill the entire browser window */
@@ -28,14 +19,12 @@ html,
   margin: auto;
   text-align: center;
   max-width: 600px;
-  color: rgb(230, 230, 255);
+  color: rgb(207, 206, 242);
   font-size: 1.5rem;
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
+  font-size: 3rem;
 }
 
 p {
